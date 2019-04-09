@@ -6,12 +6,11 @@ for i = 1:uint32(Organ.Size)
     
     plot(x, y, '+');
 
-    x = sprintf('%s podľa veku voči aorte', char(organs(i)));
-    xlabel(x);
-    ylabel('Výsledok [-]');
+    xlabel('vek [roky]');
+    ylabel(sprintf('%s voči aorte [-]', char(organs(i))));
     
     saveas(f, strcat(pdir, ...
-        sprintf('/data/figures/by_age/%s.png', char(Organ(i-1)))));
+        sprintf('/data/figures/by_age/vs_aorta/%s.png', char(Organ(i-1)))));
 end
     
 close(f);

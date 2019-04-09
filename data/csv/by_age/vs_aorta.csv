@@ -1,0 +1,8 @@
+Meranie	Pearson	P-Hodnota	Dolny limit	Horny limit
+Pozdĺžna Ľavá	-0.186512	0.473521	-0.612269	0.323097
+Priečna Ľavá	0.002281	0.993066	-0.478888	0.482397
+Kôra	-0.330517	0.195066	-0.699964	0.178482
+Aorta	NaN	NaN	NaN	NaN
+Stavec	-0.520364	0.032241	-0.800736	-0.052966
+Pozdĺžna Pravá	-0.079295	0.762259	-0.539383	0.417252
+Priečna Pravá	0.132256	0.612856	-0.372039	0.576268
